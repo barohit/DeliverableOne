@@ -34,6 +34,8 @@ public class WhatToEat {
 		System.out.println("What is the size of your party?");
 		partySize = scnr.nextInt();
 
+		System.out.println();
+
 		// while loop ensures that party size is a positive number
 		while (partySize < 1) {
 
