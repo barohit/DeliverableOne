@@ -12,7 +12,12 @@ public class WhatToEat {
 		int partySize = 0;
 		String mealSuggestion = "";
 		String preparationSuggestion = "";
-		String result = "";
+		String result;
+		/*
+		 * result is declared but not initialized here unlike the other variables
+		 * because the assignment specifically says to initialize result as a single
+		 * concatenated String
+		 */
 
 		System.out.println("What is the event type? You can enter 'casual', 'semi-formal', or 'formal'.");
 		eventType += scnr.nextLine();
@@ -61,7 +66,7 @@ public class WhatToEat {
 
 		if (partySize == 1) {
 
-			preparationSuggestion = "in the microsave";
+			preparationSuggestion = "in the microwave";
 		}
 
 		else {
@@ -80,8 +85,8 @@ public class WhatToEat {
 			}
 		}
 
-		result = "Since you are hosting a " + eventType + " event for " + partySize + " participants, you should serve "
-				+ mealSuggestion + " prepared " + preparationSuggestion + ".";
+		result = "Since you are hosting a " + eventType + " event for " + partySize
+				+ " participant(s), you should serve " + mealSuggestion + " prepared " + preparationSuggestion + ".";
 
 		System.out.println(result);
 	}
