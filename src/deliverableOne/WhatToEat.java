@@ -59,9 +59,7 @@ public class WhatToEat {
 		}
 		// mealSuggestion assignment ends and preparationSuggestion assignment begins.
 
-		if (partySize == 1)
-
-		{
+		if (partySize == 1) {
 
 			preparationSuggestion = "in the microsave";
 		}
