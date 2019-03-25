@@ -56,7 +56,7 @@ public class WhatToEat {
 			break;
 
 		case "formal":
-			mealSuggestion = "checken parmesan";
+			mealSuggestion = "chicken parmesan";
 			break;
 
 		default:
